@@ -5,6 +5,7 @@ redirect_from:
 - /documentation/ConsumerEdition/README.md/
 - /documentation/ConsumerEdition
 - /documentation/consumer/README.md/
+toc: false
 ---
 Welcome to the official documentation for Consumer Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
@@ -15,12 +16,13 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 - [Compare 96Boards](guides/compare_96boards_ce.md)
 - [96Boards CE Extras](guides/)
 
-<div style="overflow-x:scroll;" markdown="1">
+<div class="table-responsive" markdown="1">
 
 | 96Boards                                         | About                                                  | Options                    |
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
 | <img src="./thor96/additional-docs/images/images-board/sd/thor96-sd-front.jpg" data-canonical-src="./thor96/additional-docs/images/images-board/sd/thor96-sd-front.jpg" width="200" height="200" /><br> **Thor96** | Board based on NXP iMX8M SoC  | [Documentation](thor96/)<br> |
-| <img src="https://www.96boards.org/product/ce/rb3-platform/images/db845c-front-sd.png?raw=true" data-canonical-src="https://www.96boards.org/product/ce/rb3-platform/images/db845c-front-sd.png?raw=true" width="200" height="130" /><br> **Qualcomm RB3** | Board based on Qualcomm® Snapdragon™ 845 processor  | [Documentation](dragonboard/)<br> |
+| <img src="https://www.96boards.org/product/ce/qualcomm-robotics-rb5/images/rb5-front-sd.png" data-canonical-src="https://www.96boards.org/product/ce/qualcomm-robotics-rb5/images/rb5-front-sd.png" width="200" height="130" /><br> **Qualcomm Robotics RB5** | Board based on Qualcomm® QRB5165 processor  | [Documentation](dragonboard/qualcomm-robotics-rb5/)<br>[DragonBoard Family](dragonboard/)<br> |
+| <img src="https://www.96boards.org/product/ce/rb3-platform/images/db845c-front-sd.png?raw=true" data-canonical-src="https://www.96boards.org/product/ce/rb3-platform/images/db845c-front-sd.png?raw=true" width="200" height="130" /><br> **Qualcomm RB3** | Board based on Qualcomm® Snapdragon™ 845 processor  | [Documentation](dragonboard/)<br>[DragonBoard Family](dragonboard/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/sophon-edge/additional-docs/images/images-board/sd/sophon-sd-front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/sophon-edge/additional-docs/images/images-board/sd/sophon-sd-front.png?raw=true" width="220" height="200" /><br> **Sophon Edge** | Board based on Sophon BM1880 | [Documentation](sophon-edge/)    |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" width="220" height="200" /><br> **DragonBoard 820c** | Board based on Qualcomm® Snapdragon™ 820E processor  | [Documentation](dragonboard/dragonboard820c/)<br>[DragonBoard Family](dragonboard/)<br> |
 | <img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="200" height="130" /><br> **DragonBoard 410c** | Board based on Qualcomm® Snapdragon™ 410E processor  | [Documentation](dragonboard/dragonboard410c/)<br>[DragonBoard Family](dragonboard/)<br>|
@@ -36,5 +38,6 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 <img src="https://i.imgur.com/ndacN8g.png" data-canonical-src="https://i.imgur.com/ndacN8g.png" width="200" height="130" /><br> **MediaTek X20** | Board based on MediaTek X20 Applications Processor  | [Documentation](mediatekx20/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/mediatekx20pro/additional-docs/images/images-board/sd/mediatekx20pro-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/mediatekx20pro/additional-docs/images/images-board/sd/mediatekx20pro-front-sd.jpg?raw=true" width="200" height="130" /><br> **MediaTek X20 Pro** | Board based on MediaTek X20 Applications Processor  | [Documentation](mediatekx20pro/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Front_SD.png?raw=true" width="200" height="200" /><br> **B2260** | Board based on the Cannes2-STiH410 SoC  | [Documentation](b2260/)<br> |
+{:.table}
 
 </div>
